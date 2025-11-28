@@ -2,8 +2,8 @@
 modelName = 'speechBaseline4'
 
 args = {}
-args['outputDir'] = '/oak/stanford/groups/henderj/stfan/logs/speech_logs/' + modelName
-args['datasetPath'] = '/oak/stanford/groups/henderj/fwillett/speech/ptDecoder_ctc'
+args['outputDir'] = '/project2/swabhas_1765/valp/projectData/logs/speech_logs/' + modelName
+args['datasetPath'] = '/project2/swabhas_1765/valp/projectData/ptDecoder_ctc'
 args['seqLen'] = 150
 args['maxTimeSeriesLen'] = 1200
 args['batchSize'] = 64
